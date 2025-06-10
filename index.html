@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пара Грёз</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="photo/icon.png" type="image/png">
+</head>
+<body>
+    <div id="popupWinner" class="modal">
+        <div class="modal-fader">
+            <div class="modal-window">
+                <div>
+                    <img class="x-one" src="photo/Group 213.png" type="213.png">
+                    <h2>Вот это да! Вы одержали<br> верх — <span>спор выигран!</span></h2>
+                    <img class="x-two" src="photo/Group 211.png" type="211.png">
+                    <button id="closePopupWinnerBtn" class="close-window" aria-label="Закрыть">
+                        <img src="photo/Group 214.svg" alt="Кнопка закрытия" />
+                      </button>
+                </div>
+                    <div><img class="photo-right" src="photo/Group 264.png" type="254.png"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="popupLoser" class="modal">
+        <div class="modal-fader">
+            <div class="modal-window">
+                <div>
+                    <img class="x-one" src="photo/Group 213.png" type="213.png">
+                    <h2 class="modal-window-two">Упс..., Кажется, спор решился<br> <span>не в вашу пользу.</span></h2>
+                    <img class="x-3" src="photo/Group 265.png" type="265.png">
+                    <button id="closePopupLoserBtn" class="close-window-two" aria-label="Закрыть">
+                        <img src="photo/Group 214.svg" alt="Кнопка закрытия" />
+                      </button>
+                </div>
+                <div>
+                     <div><img class="photo-right-two" src="photo/Group 155.svg" type="155.svg"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="popupFeedback" class="modal">
+        <div class="modal-fader">
+            <div class="modal-window">
+                <div>
+                    <img class="x-one" src="photo/Group 213.png" type="213.png">
+                    <h2 class="modal-window-two"><span>БАМ!</span> Твой отзыв только что разнес все рейтинги! Спасибо, <span>легенда!</span></h2>
+                    <img class="x-3" src="photo/Group 265.png" type="265.png">
+                    <button id="closePopupFeedbackBtn" class="close-window-two" aria-label="Закрыть">
+                        <img src="photo/Group 214.svg" alt="Кнопка закрытия" />
+                      </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="popupRegistration" class="modal">
+        <div class="modal-fader">
+            <div class="modal-window">
+                <div>
+                    <img class="x-one" src="photo/Group 213.png" type="213.png">
+                    <h2><span>Ура!</span> Новый герой в наших рядах. <span>Время покорять вершины!</span></h2>
+                    <img class="x-two" src="photo/Group 211.png" type="211.png">
+                    <button id="closePopupRegistrationBtn" class="close-window" aria-label="Закрыть">
+                        <img src="photo/Group 214.svg" alt="Кнопка закрытия" />
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="first-screen">
+        <div class="header-background"></div>
+        <div class="container">
+            <header class="header">
+                <div class="logo-container">
+                    <img class="logo" src="photo/Paragrez.svg" alt="photo">
+                </div>
+                <nav>
+                    <div class="header-container">
+                        <ul>
+                            <li><a class="a1" href="#modes">режимы</a></li>
+                            <li><a class="a1" href="#demo">демогейм</a></li>
+                            <li><a class="a1" href="#reviews">отзывы</a></li>
+                            <li><a class="a1" href="#registration">регистрация</a></li>
+                            <li class="btf"><a href="#">скачать</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+        </div>
+        </div>
+    </section> 
+
+    <main>
+        <section class="main-content">
+            <div class="text-container">
+                <h1>Признавайся,<span class="highlight"> хочешь решить спор </span><br>и не знаешь, как это сделать?</h1>
+            </div>
+            <div class="media-container">
+                <div class="SiteDescription"><p>Выбирайте игру и доказывайте свою <br>правоту на игровом поле!</p>
+                    <p>Никаких долгих объяснений — только <br>честное соперничество и весёлый игровой процесс!</p>
+                    <div class="image-container-1">
+                        <img src="photo/Group 285.svg" alt="image" class="image-left">
+                    </div>
+                    <div class="button-container">
+                        <button class="btn1">начать игру</button>
+                        <button class="btn2">решить спор быстро</button>
+                    </div>
+                </div>
+                <div class="review-image"><img src="photo/switch.svg" alt="switch">
+                </div>
+            </div>
+        </section>
+    </main>
+    <section class="second-screen" id="modes">
+        <div>
+                <h1>Режимы Пара Грёз</h1>
+        </div>
+            <div class="switch">
+                <div class="joycon left">
+                    <img id="joyconLeft" src="photo/con2.svg" alt="alt">
+                </div>
+                <div class="screen">
+                  <div class="inner-screen">
+                    <img id="screen"> 
+                  </div>
+                </div>
+                <div class="joycon right">
+                    <img id="joyconRight" src="photo/con1.svg" alt="pl">
+                </div>
+        </div>
+    </section>
+
+    <section class="therd-screen" id="demo">
+        <div class="text-2">
+            <h1>Не упусти шанс <span>проявить стратегию и смекалку </span>—  вперед, <br>к победе!</h1>
+            <p>Попробуй демоверсию игры 'Морской бой'!</p>
+            <p class="play">Первый, кто найдёт кораблик соперника,<br>станет победителем, и спор будет решён <br>в твою пользу.</p>
+            <div class="dots-block">
+                <div id="battleField" class="dots-grid">
+                </div>
+              </div>
+              <div class="blok-2">
+                <div> <button id="ratingBtn" class="btf5">Развернуть рейтинг участников</button></div>
+              </div>
+              <div id="ratingTable" class="hidden">
+                <h1 class="blok-3">Рейтинг <span>участников</span></h1>
+                <table>
+                    <tr class="name">
+                      <th class="name">Место</th>
+                      <th class="name">Ник</th>
+                      <th class="name">Победы</th>
+                    </tr>
+                    <tr>
+                      <td class="position">1.</td>
+                      <td class="nickname">Saiko002</td>
+                      <td class="winner">198</td>
+                    </tr>
+                    <tr>
+                      <td class="position">2.</td>
+                      <td class="nickname">SyrovYuriy</td>
+                      <td class="winner">171</td>
+                    </tr>
+                    <tr>
+                      <td class="position">3.</td>
+                      <td class="nickname">Niksel</td>
+                      <td class="winner">129</td>
+                    </tr>
+                    <tr>
+                      <td class="position">4.</td>
+                      <td class="nickname">Svyatoy1Tapok</td>
+                      <td class="winner">97</td>
+                    </tr>
+                    <tr>
+                      <td class="position">5.</td>
+                      <td class="nickname">TiwaYavg</td>
+                      <td class="winner">54</td>
+                    </tr>
+                  </table>
+                
+            </div>
+        </div>
+    </section>
+
+<section class="fourth-screen">
+    <div class="screen4">
+        <div><h1>Понравилось <span>решать спор игрой</span>, <br>а <span>не словами?</span></h1>
+        <p>Оставь свой отзыв и поделись <br>впечатлениями — пусть другие тоже<br> узнают, как можно разобраться в споре <br>с улыбкой!</p>
+        <p>Оставь отзыв.</p>
+        <p>Оцени игру и поделись <br>своими впечатлениями! </p>
+        </div>
+        <div class="emptyresponse">
+            <div class="review-image"><img src="photo/Group 271.svg" alt="asd"></div>
+            <div class="heart-rating">
+                <div class="heart" data-value="1"><img src="photo/heartHollow.svg" alt="heart"></div>
+                <div  class="heart" data-value="2"><img src="photo/heartHollow.svg" alt="heart"></div>
+                <div  class="heart" data-value="3"><img src="photo/heartHollow.svg" alt="heart"></div>
+                <div  class="heart" data-value="4"><img src="photo/heartHollow.svg" alt="heart"></div>
+                <div  class="heart" data-value="5"><img src="photo/heartHollow.svg" alt="heart"></div>
+            </div>
+            <div> <button id="sendFeedbackBtn">отправить</button></div>
+        </div>
+    </div>
+</section>
+
+<section class="fifth-screen" id="reviews">
+    <div>
+        <h1>Отзывы других <span>участников</span></h1>
+    </div>
+    <div class="reviews-container">
+        <div id="reviewButtonLeft" class="static-image left">
+            <img src="photo/Group 269.svg" alt="Static Review Left">
+        </div>
+        <div class="reviews-slider">
+            <div class="slider-container">
+                <div class="slider-track">
+                    <div class="slide">
+                        <div class="slide-content">
+                            <img src="photo/Group 203.svg" alt="Review 1">
+                        </div>
+                        <div class="slide-content">
+                            <img src="photo/197.svg" alt="Review 2">
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="slide-content">
+                            <img src="photo/241.svg" alt="Review 3">
+                        </div>
+                        <div class="slide-content"> 
+                            <img src="photo/Group 250.svg" alt="4review">
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="slide-content">
+                            <img src="photo/Group 247.svg" alt="5review">
+                        </div>
+                        <div class="slide-content">
+                            <img src="photo/Group 248.svg" alt="6review">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="reviewButtonRight" class="static-image right">
+            <img src="photo/Group 270.svg" alt="Static Review Right">
+        </div>
+    </div>
+</section>
+
+<section class="sixth-screen" id="registration">
+    <div class="screen6">
+            <h1>Присоединяйся к <span>Паре Грёз </span><br>и начни решать <br><span>споры с удовольствием!</span></h1>
+            <p>Игры — это только развлечения, но и способ договориться.</p>
+    </div>
+    <div class="registration-container">
+        <div class="console">
+            <div class="screen-0">
+                <input type="text" placeholder="Никнейм">
+                <input type="email" placeholder="Почта">
+                <input type="password" placeholder="Пароль">
+                <button id="registrationBtn">начать</button>
+            </div>
+        </div>
+        <img class="right-image" src="photo/Group 272.svg" alt="Right decoration">
+        <img class="bottom-image" src="photo/Group 121.svg" alt="Bottom decoration">
+        <img class="right-image-2" src="photo/Group 276.svg" alt="Right decoration 2">
+    </div>
+</section>
+
+<section class="seventh-screen">
+<div class="application">
+    <div><img class="tg" src="photo/pngwing.com-3 1.svg" alt=""></div>
+    <div><img class="fb" src="photo/pngwing.com-5 1.svg" alt=""></div>
+    <div><img class="instagram" src="photo/pngwing.com-7 1.svg" alt=""></div>
+    <div><img class="number" src="photo/pngwing.com-8 1.svg" alt=""></div>
+</div>
+</section>
+
+<section class="eighth-screen">
+    <div class="screen8">
+        <img src="photo/Vector.svg" alt="">
+        <img src="photo/Layer_1.svg" alt="">
+    </div>
+    <div class="information">
+        <p>Политика конфиденциальности    Условия обслуживания       О нас     Центр помощи</p>
+        <p>Логотип компании Пара Грез" , "Пара Грез" и "Логотип PГ" являются зарегистрированными товарными знаками или торговыми <br>марками компании Пара Грез. <br>Другие упомянутые товарные знаки являются собственностью их соответствующих владельцев.</p>
+        <p>© ПАРА ГРЕЗ. Все права защищены.</p>
+    </div>
+
+</section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

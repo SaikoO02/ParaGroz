@@ -1,0 +1,985 @@
+@font-face {
+    font-family: "Inter";
+    src: url(./shrift/Inter-MediumItalic.otf);
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "HarryPotter";
+    src: url(./shrift/HarryPotterKudosAiHphhzbsuzHphxbsut.ttf);
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "InterRegular";
+    src: url(./shrift/Inter-Regular.otf);
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Minecraft";
+    src: url(./shrift/minecraft.ttf);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+*{
+  cursor: url(./photo/cursor.png), pointer;
+}
+
+body {
+    background-color: #1B1B1B;
+    margin: 0;
+    font-family: "InterRegular";
+}
+
+.header-background {
+  background-color: #1B1B1B;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  height: 110px;
+}
+.media-container{
+  display: flex;
+}
+
+.review-image{
+margin-left: 40px;
+}
+
+.SiteDescription{
+color: white;
+font-size: 23px;
+}
+
+.first-screen{
+  background: #1B1B1B;
+}
+
+.main-content {
+    max-width: 1280px;      
+    margin: 0 auto;         
+    padding: 0 20px;        
+    width: 100%;     
+    margin-top: 150px;
+    
+} 
+
+.header {
+    display: flex;
+    justify-content: space-between; 
+    height: 50px;
+    margin: 0 auto;         
+    padding: 25px 0;
+    max-width: 1280px;        
+    width: 100%; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.header-container{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+li:hover .a1 {
+  color: #ff3c3c;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 100%;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: flex-start; 
+}
+
+.logo {
+    height: 70px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 40px;
+    align-items: center;
+    
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+    display: flex; 
+    align-items: center; 
+    cursor: url(./photo/cursor3.png), pointer;
+}
+
+.btf {
+    background-color:#ff3c3c;
+    padding: 20px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px; 
+    line-height: 1; 
+    margin-top: -10px; 
+   
+}
+
+.btf {
+    margin-left: 60px;
+
+}
+
+.btf:hover {
+    background-color: #FF0031;
+
+}
+
+.text-container {
+    flex: 1;
+    font-family: "Inter";
+}
+
+.text-container h1 {
+    font-size: 60px;
+    color: white;
+}
+
+.text-container p {
+    font-size: 23px;
+    color: white;
+}
+
+.highlight {
+    color: #ff3c3c; 
+    font-family: HarryPotter;
+}
+
+.image-container-2{
+    flex: 1;
+    width: 800px;  
+    height: auto;
+    margin-left: 700px;
+    margin-top: -550px;
+}
+
+.image-container-1 {  
+    display: flex; 
+    flex: 1;
+    width: 200px;  
+    height: auto;
+    margin-left: 270px;
+    margin-top: -40px;
+}
+
+@keyframes float {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  20% {
+    transform: translate(-30px, -20px);
+  }
+  40% {
+    transform: translate(20px, -40px);
+  }
+  60% {
+    transform: translate(30px, -10px);
+  }
+  80% {
+    transform: translate(-20px, -30px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+.image-left {
+  width: 100%;
+  height: auto;
+  animation: float 1.5s steps(1) infinite;
+}
+
+.image-left:hover {
+  animation: none;
+  transform: translateY(-20px);
+}
+
+h1 br{
+    background-color: #FF0031;
+    font-family: "HarryPotter";
+}
+
+.button-container {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.btn1 {
+    background:none;
+    border: 3px solid #1F8DD1;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 23px;
+    transition: background 0.3s;
+    width: 200px;
+    margin-top: -10px;
+    cursor: url(./photo/cursor2.png), pointer;
+}
+
+.btn1:hover {
+  color: #1F8DD1;
+  background:none;
+}
+
+.btn2 {
+    border: 3px solid #ff3c3c;
+    background:none;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 23px;
+    transition: background 0.3s;
+    width: 290px;
+    margin: 48px 18px;
+    margin-top: -1px;
+    cursor: url(./photo/cursor3.png), pointer;
+}
+
+.btn2:hover {
+color: #ff3c3c;
+background:none;
+}
+
+.second-screen{
+    background-color: #333333;
+}
+
+.second-screen h1{
+    flex: 1;
+    font-family: "Inter";
+    font-size: 57px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 40px;
+}
+
+.switch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1323px;
+    height: 605px;
+    margin: 0 auto;
+    padding-bottom: 125px;
+  }
+  
+  .joycon {
+    width: 162px;
+    height: 100%;
+  }
+  
+  .joycon.right {
+    background-color: #ff3c3c; 
+    border-radius: 0 60px 60px 0;
+  }
+
+  .joycon.right img{
+    margin-top: 100px;
+    margin-left: -25px;
+    cursor: url(./photo/cursor3.png), pointer;
+  }
+  
+  .joycon.left {
+    background-color: #3CD2E3; 
+    border-radius: 60px 0 0 60px;
+  }
+
+  .joycon.left img{
+    margin-top: 100px;
+    margin-left: -50px;
+    cursor: url(./photo/cursor2.png), pointer;
+  }
+  
+  .screen {
+    flex: 1;
+    background-color: #666;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .inner-screen {
+    width: 80%;
+    height: 84%;
+    background-color: #1B1B1B;
+    border-radius: 40px;
+  }
+
+  .therd-screen{
+    max-width: 1280px;      
+    margin: 0 auto;                
+    width: 100%; 
+  }
+  
+  .text-2 h1 {
+    text-align: center;  
+    font-size: 60px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 50px;
+}
+
+
+  .text-2 span{
+    color: #ff3c3c; 
+    font-family: HarryPotter;
+  }
+
+  .text-2 p{
+    font-size: 23px;
+    color: white;
+    text-align: center;
+  }
+
+  .dots-block {
+    padding: 40px 0px;
+    padding-bottom: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: center; 
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+    text-align: center; 
+}
+  
+.dots-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 9px;
+  width: 100%;
+}
+
+  .dot {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #333333;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+  .dot:hover {
+    background-color: #ff3c3c;
+    cursor: url(./photo/cursor3.png), pointer;
+  }
+
+  .fourth-screen{
+    background-color: #333333;     
+    margin: 0 auto;            
+  }
+
+  .screen4{
+    display: flex;
+    max-width: 1280px;
+    margin: 0 auto;   
+  }
+
+  .fourth-screen h1{
+    font-size: 56px;
+    color: white;
+    flex: 1;
+    font-family: "Inter";
+    padding-top: 41px;
+    padding-bottom: 90px;
+    margin: 0px;
+  }
+
+  .fourth-screen span{
+    color: #ff3c3c; 
+    font-family: HarryPotter;
+  }
+
+  .fourth-screen p{
+    color: white;
+    font-size: 23px;
+    padding: 17px 0;
+    margin: 0;
+  }
+
+  .fifth-screen{
+    max-width: 1280px;
+    margin: 0 auto;  
+  }
+
+  .fifth-screen h1{
+    color: white;
+    font-size: 60px;
+    font-family: "Inter";
+    text-align: left;
+    padding-bottom: 93px;
+  }
+
+  .fifth-screen span{
+    color: #ff3c3c; 
+    font-family: HarryPotter;
+  }
+
+  .div1{
+    display: flex;
+    padding-bottom: 75px;
+  }
+
+.photo2{
+  padding: 0 92px;
+}
+
+.sixth-screen{
+  background-color:#333333 ;
+  margin: 0 auto;  
+}
+
+.screen6{
+  max-width: 1280px;
+  margin: 0 auto;  
+}
+
+.screen6 h1{
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 80px;
+  font-size: 60px;
+  color: aliceblue;
+  font-family:"Inter";
+  padding-bottom: 30px;
+  
+}
+
+.screen6 span{
+  color: #ff3c3c;
+  font-family: HarryPotter;
+}
+
+.screen6 p{
+  text-align: center;
+  margin: 0 auto;
+  padding: 30px 0;
+  color: #ff3c3c;
+  font-size: 23px;
+  padding-bottom: 60px;
+}
+
+.console {
+  background-color: #5a5a5a;
+  border-radius: 25px;
+  padding: 50px 70px;
+  position: relative;
+  max-width: 758px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.console::before,
+.console::after {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-color: #414141;
+  border-radius: 60%;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 0;
+
+}
+
+.console::before {
+  left: 35px;
+}
+
+.console::after {
+  right: 35px;
+}
+
+.screen-0 {
+  background-color: #333333;
+  border-radius: 30px;
+  padding: 10px 40px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+input {
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  padding: 12px;
+  margin: 12px 0;
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+input:focus {
+  outline: none;
+  border-bottom: 1px solid white;
+}
+
+button {
+  background-color: #333333;
+  border: 3px solid #D11F41;
+  color: white;
+  padding: 10px 35px;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 20px;
+  cursor: url(./photo/cursor3.png), pointer;
+}
+
+button:hover {
+  background-color: #333333;
+  color: #D11F41;
+}
+
+.seventh-screen{
+  background-color: #FF1616;
+
+}
+.application{
+  max-width: 580px;
+  display: flex; 
+  justify-content: space-between;
+  margin: 0 auto; 
+}
+
+.tg{
+  margin-top: 10px;
+}
+
+.number{
+  margin-top: 10px;
+}
+
+.eighth-screen{
+  background-color: #340C11;
+}
+
+.screen8{
+  max-width: 580px;
+  margin: 0 auto; 
+  display: flex;
+}
+  
+.screen8 img{
+display: flex; 
+justify-content: space-between;
+margin: 0 auto; 
+padding-top: 61px;
+padding-bottom: 70px;
+}
+
+.information p{
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  padding: 20px 0;
+  margin: 0;
+}
+
+.btf5 {
+  padding: 17px;
+  border: 3px solid #ff3c3c;
+  margin: 30px 0px 50px 0px;
+  background-color: transparent;
+  color: white;
+  font-size: 23px;
+  display: flex; 
+  justify-content: center;  
+  align-items: center;  
+  image-rendering: pixelated;
+  transition: background-color 0.3s ease;
+  cursor: url(./photo/cursor3.png), pointer;
+}
+
+.btf5:hover{
+  background-color: #1B1B1B;
+  color: #ff3c3c;
+}
+
+.blok-2{
+  display: flex;
+  justify-content: center; 
+}
+
+.blok-2 p{
+  padding:17px;
+ border: 3px solid #ff3c3c;
+ margin-left: 25px;
+ margin: 30px;
+ border-radius: 50px;
+}
+
+.blok-3 h1{
+  font-size: 60px;
+}
+
+.hidden {
+  display: none;
+}
+
+table {
+  width: 60%; 
+  margin: 0 auto; 
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 48px;
+  font-family: 'HarryPotter', sans-serif;  
+  color: white;
+  text-align: center;
+}
+th, td {
+  padding: 12px 20px;
+  text-align: left;
+}
+th {
+  font-style: italic;
+  font-weight: normal;
+}
+.nickname {
+  color: #ff3c3c;
+  text-align: center; 
+  font-family: "Minecraft";
+}
+.position {
+  font-weight: bold;
+  font-size: 1.2em;
+  text-align: center; 
+}
+
+.winner{
+  font-weight: bold;
+  font-size: 1.2em;
+  text-align: center; 
+}
+
+.name{
+  font-family: InterRegular;
+  text-align: center;
+}
+
+.heart-rating  {
+    display: flex;
+    gap: 15px;
+    margin-top: 40px;
+    justify-content: center
+
+}
+
+.heart {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.heart img {
+    width: 45px;
+    height: 45px;
+}
+
+.heart:hover,
+.heart-rating:hover .heart {
+    transform: scale(1.2);
+}
+
+.heart-rating .heart:hover ~ .heart {
+    transform: scale(1);
+}
+
+.reviews-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    gap: 0;
+}
+
+.static-image {
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    padding-bottom: 60px;
+}
+
+.static-image img {
+    max-width: 100%;
+    height: auto;
+    cursor: url(./photo/cursor3.png), pointer;
+}
+
+.reviews-slider {
+    position: relative;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    overflow: hidden;
+    cursor: grab;
+    flex: 1;
+}
+
+.reviews-slider:active {
+    cursor: grabbing;
+}
+
+.slider-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider-track {
+    display: flex;
+    transition: transform 0.3s ease-out;
+    user-select: none;
+    will-change: transform;
+}
+
+.slide {
+  box-sizing: border-box;
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  padding-bottom: 70px;
+  flex-shrink: 0;
+}
+
+.slide-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.slide img {
+    max-width: 100%;
+    height: auto;
+    pointer-events: none;
+}
+
+.slider-button {
+    display: none;
+}
+
+.emptyresponse{
+padding: 40px;
+}
+
+.emptyresponse button{
+margin: 30px 150px ;
+margin-bottom: 0px;
+cursor: url(./photo/cursor3.png), pointer;
+}
+
+.modal {
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.modal.active {
+  display: block;
+}
+
+.modal-fader {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-window {
+  display: flex;
+  position: relative;
+  width: 1005px;
+  height: 480px;
+  border-radius: 50px;
+  margin: 0 auto;
+  background-color: #333333;
+}
+
+.loser{
+  height: auto;
+  width: 200px;
+}
+
+.close-window {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: none;
+  padding: 6px;
+  border-radius: 40px;
+  border: 3px solid #1F8DD1; 
+  cursor: pointer;
+  margin: 10px 20px 0px 0px;
+  
+}
+
+.close-window :hover{
+  cursor: url(./photo/cursor2.png), pointer;
+  content: url("photo/Group\ 265.svg");
+}
+
+.modal-window h2{
+  font-size: 48px;
+  color: white;
+  font-family: "Inter";
+  text-align: left;
+  padding: 30px 0px 0px 30px;
+  width: 900px;
+}
+
+.modal-window h2 span{
+  color: #ff3c3c;
+  font-family: "HarryPotter";
+  width: 900px;
+
+}
+
+.x-one{
+padding:30px 0px 0px 30px ;
+}
+
+.x-two{
+  float: right;
+  padding:20px 240px 0px 30px ;
+}
+
+.photo-right{
+   margin-top: 57%;
+   margin-left: -66%;
+}
+
+.photo-right-two{
+  margin-top: 93%;
+  margin-left: -80%;
+}
+
+.modal-window-two{
+ margin: 1px;
+}
+
+.x-3{
+  padding:0px 0px 0px 30px ;
+}
+
+.close-window-two{
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: none;
+  padding: 6px;
+  border-radius: 40px;
+  border: 3px solid #ff3c3c; 
+  cursor: pointer;
+  margin: 10px 20px 0px 0px;
+}
+
+.close-window-two :hover{
+  cursor: url(./photo/cursor3.png), pointer;
+  content: url("photo/Group\ 266.svg");
+}
+
+.photo-right-3{
+  margin-top: 90%;
+  margin-left: -70%;
+}
+
+.right-image {
+  position: absolute;
+  right: 1150px;
+  top: 23%;
+  transform: translateY(-50%);
+  max-width: 1000%;
+  height: auto;
+}
+
+.bottom-image {
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  transform: translateX(-50%);
+  max-width: 100%;
+  height: auto;
+}
+
+.right-image-2 {
+  position: absolute;
+  left: 1120px;
+  top: 40%;
+  transform: translateY(-50%);
+  max-width: 30%;
+  height: auto;
+}
+
+.registration-container {
+  position: relative;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  min-height: 600px;
+}
+
+.application img {
+    cursor: url(./photo/cursor3.png), pointer;
+}
